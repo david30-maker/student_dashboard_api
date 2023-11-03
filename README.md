@@ -89,7 +89,7 @@ Follow these steps to install and configure the student_dashboard_api Rails App:
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Okpah Igbo**
+👤 **David Igbo**
 
 - GitHub: [@david30-maker](https://github.com/david30-maker)
 - Twitter: [@davidigbo1](https://twitter.com/davidigbo1)
