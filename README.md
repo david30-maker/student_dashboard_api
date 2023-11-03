@@ -312,4 +312,5 @@ We get this as the response body
     "updated_at": "2023-11-03T08:28:15.814Z"
 }
 ```
+
 We can now use this profile to get the current user by sending a GET request to `/api/v1/users` with this token in the Authorization header to get the current user. 
