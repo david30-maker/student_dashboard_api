@@ -32,7 +32,6 @@ The Student_Dashboard_Api Rails App is a web application that authenticates user
 ## 🛠 Built With <a name="built-with"></a>
 
 <details>
-  <summary>Client</summary>
   <ul>
     <li><p> <b>Ruby on Rails: </b></p></li>
   </ul>
