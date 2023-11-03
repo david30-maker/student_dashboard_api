@@ -22,6 +22,7 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
+   - [📝 Api Documentation ](#-api-documentation-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -195,7 +196,7 @@ If you do this wrong , you will get an error message of the error
 ## Get current user - using JWT token
 
 Now let us see how we will use this jwt token to get the current user .
-We will get this token from the response header after signing up and use it in the header of the GET request to the `/api/v1/users` endpoint to get the current user .
+We will get this token from the response header after signing up and use it in the header of the GET request to the `http://localhost:3001/api/v1/users` endpoint to get the current user .
 
 
 After signing up;
