@@ -100,10 +100,6 @@ Type the following command to run the Ruby file:
 ```sh
 rails server
 ```
-
-### Deployment
-
-
 ## 👥 Author <a name="authors"></a>
 
 👤 **Okpah Igbo**
@@ -116,7 +112,7 @@ rails server
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Send error report to the user if submitted url is invalid**
+- **Department Api**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +133,7 @@ Give a start ⭐️ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-Special thanks to TechProNG for this opportunity
+Special thanks to TechProsNG for this opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,6 +145,7 @@ This project is [MIT](./LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## 📝 Api Documentation <a name="api"></a>
 
 Now the server is running you can start to query the endpoints in the API.
 
