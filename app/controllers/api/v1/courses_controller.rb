@@ -18,6 +18,7 @@ class Api::V1::CoursesController < ApplicationController
   end
 
   private
+
   def course_params
     params.require(:course).permit(:name, :description)
   end
