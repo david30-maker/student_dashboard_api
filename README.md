@@ -137,11 +137,11 @@ This project is [MIT](./LICENSE) licensed.
 Now the server is running you can start to query the endpoints in the API.
 
 
-To Sign up a user , send a POST request to the following endpoint;
+To Sign up a user, send a POST request to the following endpoint;
 
 `http://localhost:3001/signup`
 
-The body of the Json will be
+The body of the JSON will be
 
 ```json
     {
@@ -153,7 +153,7 @@ The body of the Json will be
 }
 ```
 
-If you do this right , you will get a response of the created user
+If you do this correctly, you will get a response from the created user
 ```json 
     {
     "status": {
@@ -170,7 +170,7 @@ If you do this right , you will get a response of the created user
 ```
 
 
-If you do this wrong , you will get an error message of the error
+If you do this wrongly, you will get an error message of the error
 ```json
     { 
         "error": "User couldn't be created successfully" 
@@ -179,7 +179,7 @@ If you do this wrong , you will get an error message of the error
 
 ## Get current user - using JWT token
 
-Now let us see how we will use this jwt token to get the current user .
+Now let us see how we will use this jwt token to get the current user.
 We will get this token from the response header after signing up and use it in the header of the GET request to the `http://localhost:3001/api/v1/users` endpoint to get the current user .
 
 
@@ -187,10 +187,10 @@ After signing up;
 
     Copy the token in the response body of the previous successful request
 
-Send a GET request to the following endpoint to get details on the signed up user
+Send a GET request to the following endpoint to get details on the signed-up user
 `http://localhost:3001/signup`
 
-On the headers for the request add  `Authorization` using the keyword `Bearer` , followed by the token you got upon signing up
+On the headers for the request add  `Authorization` using the keyword `Bearer`, followed by the token you got upon signing up
 The Authorization Header should look like this
 ```json
     "Authorization": "Bearer eyJhbG*********************************************************nRVvhI"  
@@ -212,7 +212,7 @@ We will get this as the response body
 ```
 
 
-To handle login , send a POST request to the following endpoint
+To handle login, send a POST request to the following endpoint
 
 ```http://localhost:3001/login```
 
@@ -245,14 +245,14 @@ We get this as the response body
             "token": "eyJhbG*********************************************************nRVvhI"  
     }
 ```
-If you do this wrong , you will get an error message of the error
+If you do this wrongly, you will get an error message of the error
 ```json
     { 
         "error": "Logged in was not successfully" 
     }
 ```
 
-To handle course api, send a POST request to the following endpoint
+To handle course API, send a POST request to the following endpoint
 
 ```http://localhost:3001/api/v1/courses```
 and the body below
@@ -268,13 +268,14 @@ We get this as the response body
 
 ```json
     {
-    "id":2,"name":"Programming",
-    "description":"to build computer applications",
-    "created_at":"2023-11-03T08:13:16.530Z",
-    "updated_at":"2023-11-03T08:13:16.530Z"
+    "id":2,
+    "name": "Programming",
+    "description": "to build computer applications",
+    "created_at": "2023-11-03T08:13:16.530Z",
+    "updated_at": "2023-11-03T08:13:16.530Z"
     }
 ```
-To handle enrollment api, send a POST request to the following endpoint
+To handle enrollment API, send a POST request to the following endpoint
 
 ```http://localhost:3001/api/v1/enrollments```
 and the body below
