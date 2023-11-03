@@ -15,7 +15,6 @@
     - [Setup](#setup)
     - [Install](#install)
   - [Database Setup](#database-setup)
-    - [Usage](#usage)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -88,18 +87,6 @@ Follow these steps to install and configure the student_dashboard_api Rails App:
 ## Start the Rails server:
 - rails server
 
-### Usage
-To run a Rails file in the command line, follow these steps:
-
-Open a command prompt or terminal window on your computer.
-
-Navigate to the root directory where the Rails file is stored using the cd command.
-
-Type the following command to run the Ruby file:
-
-```sh
-rails server
-```
 ## 👥 Author <a name="authors"></a>
 
 👤 **Okpah Igbo**
@@ -178,7 +165,7 @@ If you do this right , you will get a response of the created user
         "email": "david@gmail.com",
         "name": "Dave"
     }
-        "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzZDQzYzg0My0wNzFlLTQ1OTgtODJjMi0zOGY1NDQ2MTU3YTUiLCJzdWIiOiI2Iiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNjk4OTk1OTU5LCJleHAiOjE2OTg5OTc3NTl9.SINELD_McyZhKBLqe_vjw91bv18wN2kzWnq1onRVvhI" 
+        "token": "eyJhbG*********************************************************nRVvhI" 
     }
 ```
 
@@ -206,7 +193,7 @@ Send a GET request to the following endpoint to get details on the signed up use
 On the headers for the request add  `Authorization` using the keyword `Bearer` , followed by the token you got upon signing up
 The Authorization Header should look like this
 ```json
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzZDQzYzg0My0wNzFlLTQ1OTgtODJjMi0zOGY1NDQ2MTU3YTUiLCJzdWIiOiI2Iiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNjk4OTk1OTU5LCJleHAiOjE2OTg5OTc3NTl9.SINELD_McyZhKBLqe_vjw91bv18wN2kzWnq1onRVvhI" 
+    "Authorization": "Bearer eyJhbG*********************************************************nRVvhI"  
 ```
 We will get this as the response body
  
@@ -255,7 +242,7 @@ We get this as the response body
             }
         }
     }
-            "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzZDQzYzg0My0wNzFlLTQ1OTgtODJjMi0zOGY1NDQ2MTU3YTUiLCJzdWIiOiI2Iiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNjk4OTk1OTU5LCJleHAiOjE2OTg5OTc3NTl9.SINELD_McyZhKBLqe_vjw91bv18wN2kzWnq1onRVvhI" 
+            "token": "eyJhbG*********************************************************nRVvhI"  
     }
 ```
 If you do this wrong , you will get an error message of the error
@@ -311,4 +298,4 @@ We get this as the response body
 }
 ```
 
-We can now use this profile to get the current user by sending a GET request to `/api/v1/users` with this token in the Authorization header to get the current user. 
+We can now use this profile to get the current user by sending a GET request to `http://localhost:3001/api/v1/users` with this token in the Authorization header to get the current user. 
