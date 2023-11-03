@@ -1,5 +1,6 @@
 class Api::V1::CoursesController < ApplicationController
-    skip_before_action :authenticate_request, only: %i[show index]
+    before_action :authenticate_user!
+    skip_before_action :authenticate_user!, only: %i[show index]
     
     # GET /api/v1/courses
     def index
