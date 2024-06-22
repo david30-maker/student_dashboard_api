@@ -50,8 +50,6 @@ The Student_Dashboard_Api Rails App is a web application that authenticates user
 - **[user authentication]**
 - **[api for student information]**
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
