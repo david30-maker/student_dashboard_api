@@ -114,8 +114,6 @@ Give a start ⭐️ If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 Special thanks to TechProsNG for this opportunity
 
